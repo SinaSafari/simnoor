@@ -1,13 +1,14 @@
 import { TEST_SUCCESS } from '../constants/testConstants'
+import { createReducer } from '../../common/util/reducerUtil'
 
-export const test = (state = [], action) => {
-  switch (action.type) {
-    case TEST_SUCCESS:
-      return {
-        ...state,
-        ...action.payload
-      }
-    default:
-      return state
-  }
+const initialState = {};
+
+
+export const testSuccess = (state, payload) => {
+  return { ...state, message: payload }
 }
+
+
+export default createReducer(initialState, {
+  [TEST_SUCCESS]: testSuccess,
+})
