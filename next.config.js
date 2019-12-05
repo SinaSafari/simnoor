@@ -15,6 +15,10 @@ const nextConfig = {
 
 module.exports = withPlugins([
     [withCSS],
-    [withImages],
+    [withImages, {
+        optimizeImagesInDev: true,
+        handleImages: ['jpeg', 'png', 'svg'],
+        inlineImageLimit: -1
+    }],
     [withFonts]
 ], nextConfig)
