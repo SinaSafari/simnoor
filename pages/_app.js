@@ -7,6 +7,9 @@ import withReduxSaga from 'next-redux-saga'
 
 import { makeStore } from '../Redux/store'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../common/styles/style.css'
+
 class MyApp extends App {
   static async getInitialProps(appContext) {
     const appProps = await App.getInitialProps(appContext)
