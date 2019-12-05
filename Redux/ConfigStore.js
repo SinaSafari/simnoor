@@ -22,7 +22,7 @@ export const configureStore = preloadedState => {
 
     const store = createStore(
         rootReducerEnhancer,
-        // preloadedState,
+        preloadedState,
         composedEnhancer,
     )
 

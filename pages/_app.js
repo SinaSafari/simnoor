@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import withRedux from 'next-redux-wrapper'
 import withReduxSaga from 'next-redux-saga'
 
-import { configureStore } from '../Redux/ConfigStore'
+import { makeStore } from '../Redux/store'
 
 class MyApp extends App {
   static async getInitialProps(appContext) {
@@ -23,4 +23,4 @@ class MyApp extends App {
   }
 }
 
-export default withRedux(configureStore)(withReduxSaga(MyApp))
+export default withRedux(makeStore)(withReduxSaga(MyApp))
