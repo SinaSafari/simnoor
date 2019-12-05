@@ -1,23 +1,32 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import { getTest } from '../Redux/actionCreators/testActionCreators'
 
 
-const Home = ({ dispatch, state }) => {
-  console.log(state)
+import Header from '../components/header/Header'
+import Slider from '../components/hero/Slider'
+import Services from '../components/services/Services'
+import FeaturedPosts from '../components/FeaturedPosts/FeaturedPosts'
+import Footer from '../components/Footer/Footer'
+import Costumers from '../components/Customer/Costumers'
+import Testimonials from '../components/Testinmonial/Testimonial'
+import ContactUs from '../components/contact/ContactUs'
+import Video from '../components/Video/Video'
+
+const Home = () => {
 
   return (
-    <div>
-      Home Page
-      <p onClick={() => dispatch(getTest())}>Get Test: Click me </p>
-    </div>
+    <>
+      <Header />
+      <Slider img='hero1' title='Home Page' />
+      <Services />
+      <FeaturedPosts />
+      <Costumers />
+      <Testimonials />
+      <ContactUs />
+      <Video />
+      <Footer />
+    </>
   )
 }
 
-const map = state => {
-  return {
-    state
-  }
-}
 
-export default connect(map)(Home)
+export default Home
