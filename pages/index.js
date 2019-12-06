@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Slider img='hero1' title='Home Page' btnTitle='Our Services' />
+      <Slider img='hero1' title='Sim Noor Co.' btnTitle='Our Services' />
       <Services />
       <FeaturedPosts />
       <Costumers />
