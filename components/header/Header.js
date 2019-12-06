@@ -76,9 +76,13 @@ function Header() {
                 <nav className="site-nav-menu">
                     {
                         MENU_ITEMS.map(item => (
-                            <Link href={`${item.route}`}>
-                                <a><MenuItem key={item.id} title={item.title} /></a>
-                            </Link>
+                            <MenuItem key={item.id} >
+                                <Link href={`${item.route}`}>
+                                    <a>
+                                        {item.title}
+                                    </a>
+                                </Link>
+                            </MenuItem>
                         ))
                     }
                 </nav>

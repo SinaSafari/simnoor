@@ -1,9 +1,9 @@
 import React from 'react'
 
-function MenuItem({ title }) {
+function MenuItem({ children }) {
     return (
         <ul>
-            <li><a href="">{title}</a></li>
+            <li>{children}</li>
         </ul>
     )
 }
