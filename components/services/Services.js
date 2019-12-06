@@ -60,11 +60,10 @@ function Services() {
 
                             {SERVICES.map(item => {
                                 return (
-                                    <div key={item.id} class="col-lg-4 col-md-6">
+                                    <div key={item.id} className="col-lg-4 col-md-6">
                                         <div className="service-item">
                                             <div className="si-head">
                                                 <div className="si-icon">
-                                                    {/* <img src={item.img} alt="" /> */}
                                                     <ImageWrapper iconName={item.img} />
                                                 </div>
                                                 <h5> {item.title} </h5>
