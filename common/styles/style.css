@@ -471,6 +471,7 @@ Header section
   display: inline-block;
   margin-right: 100px;
   padding-left: 63px;
+  height: 20px;
 }
 
 .header-right {
@@ -513,7 +514,7 @@ Header section
   color: #fff;
   font-size: 25px;
   border: none;
-  background: #ffc000;
+  background: #b44501;
 }
 
 .search-switch-warp {
@@ -944,7 +945,7 @@ Service Section
 
 .cta-section {
   padding: 33px 0;
-  background: #ffc000;
+  background: #b44501;
 }
 
 .cta-section h2 {

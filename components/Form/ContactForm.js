@@ -11,7 +11,7 @@ function ContanctForm() {
                     <div className="col-lg-4">
                         <div className="contact-text">
                             <h2>Get in Touch</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin estst quis, blandit sollicitudi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin estst quis, blandit sollicitudi</p>
+                            <p>Please leave comments and if you want more information about each one of our products and services, contanct us by this form or use our email address: <a href="mailto: simnooryazdan@yahoo.com">Send Email</a></p>
                             <div className="header-info-box">
                                 <div className="hib-icon">
                                     <ImageWrapper iconName='phone' />

@@ -6,7 +6,7 @@ function Button({ title, classes }) {
             <style jsx global>{`
         button{
             font-size: 16px;
-            background-color: #ffc001;
+            background-color: #b44501;
             border: 1px solid #000;
             padding: 8px;
             color: white;

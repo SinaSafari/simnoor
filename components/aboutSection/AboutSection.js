@@ -13,7 +13,9 @@ function AboutSection() {
                     <div className="col-lg-6">
                         <div className="about-text">
                             <h2>We produce or supply Goods, & Services</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. </p>
+                            <p>  Sim Noor Yazdan Co. which focuses in research & development, innovation in Electric industry and pure energy is looking for reducing wasting pure energy through foundemental researches. This wasting is due to transmission of the energy or the way of saving. This company is also  aim at researching and developing different kinds of conductions and especially new ones. This could be done through the best in hand technology and the latest Standards in the world which has got the crucial role in this work.</p>
+
+
                             <div className="about-sign">
                                 <div className="sign">
                                     {/* <img src={sign} alt="" /> */}
@@ -21,7 +23,7 @@ function AboutSection() {
                                 </div>
                                 <div className="sign-info">
                                     <h5>Michael Smith</h5>
-                                    <span>CEO Industrial INC</span>
+                                    <span>Sim Noor Co. CEO Industrial INC</span>
                                 </div>
                             </div>
                         </div>

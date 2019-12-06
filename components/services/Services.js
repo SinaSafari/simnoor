@@ -7,43 +7,38 @@ const SERVICES = [
     {
         id: 1,
         img: 'cogwheel',
-        title: "Mechanical Engineering",
-        text:
-            " Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu."
+        title: "AAC / AAAC",
+        text: 'All Aluminium Conductor / All Aluminium Alloy Conductors'
     },
     {
         id: 2,
         img: 'helmet',
-        title: "Profesional Workers",
-        text:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus."
+        title: "ACSR/AW / ACSR",
+        text: 'Aluminium Conductor Aluminium – Clad  Steel Reinforced / Aluminium Conductor Steel Reinforced'
     },
     {
         id: 3,
         img: 'windEngine',
-        title: "Green Energy",
-        text:
-            " Sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec con-sequat arcu et commodo interdum."
+        title: "ACSR/TW ",
+        text: 'Aluminium Conductor Steel Reinforced Trapezoidal Wire'
     },
     {
         id: 4,
         img: 'pollution',
-        title: "Power Engineering",
-        text:
-            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. "
+        title: "ACSS / GA/AW",
+        text: 'Aluminium Conductor Steel Supported / Shield Wires'
     },
     {
         id: 5,
         img: 'pumpjack',
-        title: "Oil & Lubricants",
-        text: " Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu."
+        title: "ACSS/AW",
+        text: "Aluminium Conductor Steel Supported-Clad Steel Reinforced"
     },
     {
         id: 6,
         img: 'lightBulb',
-        title: "Power & Energy",
-        text:
-            " Sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec con-sequat arcu et commodo interdum. "
+        title: "ACSS/TW",
+        text: 'Aluminium Conductor Steel Supported-Trapezoidal Wire'
     },
 ]
 

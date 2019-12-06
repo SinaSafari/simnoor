@@ -7,7 +7,7 @@ import Slider from '../components/hero/Slider'
 
 import ContactForm from '../components/Form/ContactForm'
 
-function contanct() {
+function contact() {
     return (
         <>
             <Header />
@@ -20,4 +20,4 @@ function contanct() {
     )
 }
 
-export default contanct
+export default contact

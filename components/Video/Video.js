@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageWrapper from '../ImageWrapper'
+import Button from '../Button/Button'
 
 
 function Video() {
@@ -11,8 +12,8 @@ function Video() {
                         <div className="col-lg-6">
                             <div className="video-text">
                                 <h2>We produce or supply Goods, & Services</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur.</p>
-                                <a href="#" className="site-btn">contact us</a>
+                                <p>As a Group with a global footprint, we take our responsibility to create an inclusive environment seriously. We have a culture of sharing, collaboration, openness and transparency which means we embrace diversity, and we consistently monitor our progression. Each of our people has a unique skillset, perspective and capability that they bring to the business. We encourage our people make their mark on Prysmian Group by recognising the essential part that they play both in the business and for the world.</p>
+                                <Button title='Contact Us' />
                             </div>
                         </div>
                         <div className="col-lg-6">

@@ -9,28 +9,28 @@ const MILESTONS = [
         img: 'plug',
         subject: 'Clients',
         number: '725',
-        paragraph: 'Nam ornare ipsum',
+        paragraph: 'In 10 Years',
     },
     {
         id: 2,
         img: 'light',
         subject: 'Growth',
         number: '45%',
-        paragraph: 'Nam ornare ipsum',
+        paragraph: 'In Production',
     },
     {
         id: 3,
         img: 'trafficCone',
         subject: 'Projects',
         number: '59',
-        paragraph: 'Nam ornare ipsum',
+        paragraph: 'AAC and AAAC',
     },
     {
         id: 4,
         img: 'worker',
         subject: 'Emploees',
         number: '138',
-        paragraph: 'Nam ornare ipsum',
+        paragraph: 'Enginners and clerks',
     },
 ]
 

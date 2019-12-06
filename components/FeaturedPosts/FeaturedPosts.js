@@ -5,20 +5,20 @@ import Card from '../Card/Card'
 const FEATURED = [
     {
         id: 1,
-        title: 'title1',
-        text: 'lorem lorem lorem lorem lorem lorem lorem',
+        title: 'AAC/TW',
+        text: 'Shaped Wire Compact Concentric-Lay-Stranded Aluminum Conductor is ...',
         img: 'featured1'
     },
     {
         id: 2,
-        title: 'title2',
-        text: 'survived not only fl an unknown printer took a galley of type',
+        title: 'ACSR',
+        text: 'ACSR conductors provide dependable performance for many years under ...',
         img: 'featured2'
     },
     {
         id: 3,
-        title: 'title3',
-        text: 'lorem lorem lorem lorem lorem lorem lorem',
+        title: 'OPGW',
+        text: 'The Cable Armoring consisting of one, two or more layers of armoring wires.',
         img: 'featured3'
     },
 ]

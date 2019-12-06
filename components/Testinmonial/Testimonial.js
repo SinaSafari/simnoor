@@ -20,7 +20,7 @@ function Testimonials() {
                                     <h2>Client’s Testimonials</h2>
                                     <div className="testimonial-slider owl-carousel">
                                         <div className="testimonial">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+                                            <p>We embrace the responsibility of leadership. Providing our people with a clear vision and demonstrating the role they play in delivering it is important. It’s why our Leadership teams take the time to listen, to share their learnings and experiences, helping people across our business grow and develop.</p>
                                             <ImageWrapper iconName='testemonialThumb' className='testi-thumb' />
                                             <div className="testi-info">
                                                 <h5>Michael Smith</h5>

@@ -8,10 +8,10 @@ import MenuItem from './MenuItem'
 
 
 const COMPANY_DETAILS = {
-    email: 'contact@industryalinc.com',
-    phoneNumber: '+546 990221 123',
-    mainAddress: 'Main Str, no 23',
-    subAddress: 'NY, New York PK 23589'
+    email: 'simnooryazdan@yahoo.com',
+    phoneNumber: '(+98)21 44074833',
+    mainAddress: 'No 94, East Ferdos, Kashani Ave',
+    subAddress: 'Tehran,Iran'
 }
 
 
@@ -35,7 +35,7 @@ const MENU_ITEMS = [
     {
         id: 4,
         title: 'Contact',
-        route: '/contanct'
+        route: '/contact'
     },
 ]
 
@@ -66,7 +66,7 @@ function Header() {
                         </div>
                         <div className="hib-text">
                             {/* <h6>Main Str, no 23</h6> */}
-                            <h6>{COMPANY_DETAILS.mainAddress}}</h6>
+                            <h6>{COMPANY_DETAILS.mainAddress}</h6>
                             {/* <p>NY, New York PK 23589</p> */}
                             <p>{COMPANY_DETAILS.subAddress}</p>
                         </div>

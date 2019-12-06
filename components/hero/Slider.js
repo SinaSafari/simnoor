@@ -10,7 +10,7 @@ function Slider({ img, title, btnTitle }) {
                 <ImageWrapper iconName={img} className='card-img-top' />
                 {/* style={{ marginTop: '100px' }} */}
                 <div className='card-img-overlay container ' >
-                    <h1 className='text-center' style={{ color: '#000', fontWeight: '100', fontSize: '68px', textShadow: '1px 1px  white' }}><span style={{ background: '#ffc001', padding: '0px 10px' }}>{title}</span></h1>
+                    <h1 className='text-center' style={{ color: '#000', fontWeight: '100', fontSize: '68px', textShadow: '1px 1px  white' }}><span style={{ background: '#b44501', padding: '0px 10px' }}>{title}</span></h1>
                     <div style={{ marginTop: '30px' }}>
                         <Botton title={btnTitle} classes='d-flex justify-content-center' />
                     </div>

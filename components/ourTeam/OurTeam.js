@@ -29,7 +29,7 @@ function OurTeam() {
             <div className="container">
                 <div className="team-text">
                     <h2>Our Amazing Team</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+                    <p>Some of our outstanding Engineers who focus in research & development, innovation in Electric industry and pure energy is looking for reducing wasting pure energy through foundemental researches.</p>
                 </div>
 
                 <div className='d-flex justify-content-center' >
