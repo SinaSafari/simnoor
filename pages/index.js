@@ -10,13 +10,15 @@ import Costumers from '../components/Customer/Costumers'
 import Testimonials from '../components/Testinmonial/Testimonial'
 import ContactUs from '../components/contact/ContactUs'
 import Video from '../components/Video/Video'
+import ImageSlider from '../components/hero/ImageSlider'
 
 const Home = () => {
 
   return (
     <>
       <Header />
-      <Slider img='hero1' title='Sim Noor Co.' btnTitle='Our Services' />
+      {/* <Slider img='hero1' title='Sim Noor Co.' btnTitle='Our Services' /> */}
+      <ImageSlider title='Sim Noor Co.' btnTitle='Our Services' />
       <Services />
       <FeaturedPosts />
       <Costumers />

@@ -2122,3 +2122,17 @@ Responsive
     padding: 13px 10px;
   }
 }
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+  .carousel-caption span {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .carousel-caption {
+    top: 0;
+  }
+}
