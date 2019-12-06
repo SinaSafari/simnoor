@@ -1,5 +1,8 @@
 import React from 'react'
 
+import MilestoneItem from './MilestoneItem'
+
+
 const MILESTONS = [
     {
         id: 1,
@@ -17,7 +20,7 @@ const MILESTONS = [
     },
     {
         id: 3,
-        img: 'traficCone',
+        img: 'trafficCone',
         subject: 'Projects',
         number: '59',
         paragraph: 'Nam ornare ipsum',
@@ -34,9 +37,17 @@ const MILESTONS = [
 
 function Milestone() {
     return (
-        <div>
-
-        </div>
+        <section className="milestones-section set-bg" style={{ background: 'linear-gradient(to left, #000099 0%, #660066 100%)' }} >
+            <div className="container text-white">
+                <div className="row">
+                    {
+                        MILESTONS.map(item => (
+                            <MilestoneItem img={item.img} number={item.number} subject={item.subject} paragraph={item.paragraph} />
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
     )
 }
 

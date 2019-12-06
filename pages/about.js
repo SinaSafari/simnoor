@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer'
 import ContactUs from '../components/contact/ContactUs'
 import Slider from '../components/hero/Slider'
 import AboutSection from '../components/aboutSection/AboutSection'
+import Milestone from '../components/milestone/Milestone'
 
 function about() {
     return (
@@ -11,8 +12,8 @@ function about() {
             <Header />
             <Slider img='pageTopImg1' />
             <AboutSection />
-            {/* <Milestone />
-            <OutTeam /> */}
+            <Milestone />
+            {/* <OutTeam />  */}
             <ContactUs />
             <Footer />
         </>

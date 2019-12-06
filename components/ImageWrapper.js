@@ -14,7 +14,7 @@ const ICONS = {
 
     plug: require('../public/images/png/plug.png'),
     worker: require('../public/images/png/worker.png'),
-    traficCone: require('../public/images/png/trafic-cone.png'),
+    trafficCone: require('../public/images/png/traffic-cone.png'),
     light: require('../public/images/png/light.png'),
 
 
