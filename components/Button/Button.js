@@ -16,7 +16,7 @@ function Button({ title, classes }) {
         }
         button:hover{
             color: black;
-            border: 1px solid white;
+            border: 1px solid black;
             background-color: white;
             text-shadow: 0px 0px #000;
         }

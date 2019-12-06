@@ -42,7 +42,7 @@ function Milestone() {
                 <div className="row">
                     {
                         MILESTONS.map(item => (
-                            <MilestoneItem img={item.img} number={item.number} subject={item.subject} paragraph={item.paragraph} />
+                            <MilestoneItem key={item.id} img={item.img} number={item.number} subject={item.subject} paragraph={item.paragraph} />
                         ))
                     }
                 </div>

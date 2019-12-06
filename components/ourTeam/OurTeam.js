@@ -36,7 +36,7 @@ function OurTeam() {
                     {
                         TEAM_MEMBERS.map(item => {
                             return (
-                                <div className='mx-5'>
+                                <div key={item.id} className='mx-5'>
                                     <div className=' text-center'>
                                         <Card img={item.img} title={item.title} text={item.text} btnTitle='Open CV' />
                                     </div>
