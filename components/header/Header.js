@@ -1,4 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
+
+
 
 import ImageWrapper from '../ImageWrapper'
 import MenuItem from './MenuItem'
@@ -15,19 +18,24 @@ const COMPANY_DETAILS = {
 const MENU_ITEMS = [
     {
         id: 1,
-        title: 'Home'
+        title: 'Home',
+        route: '/'
     },
     {
         id: 2,
-        title: 'About Us'
+        title: 'About Us',
+        route: '/about'
+
     },
     {
         id: 3,
-        title: 'Solutions'
+        title: 'Solutions',
+        route: '/solutions'
     },
     {
         id: 4,
-        title: 'Contact'
+        title: 'Contact',
+        route: '/contanct'
     },
 ]
 
@@ -67,7 +75,11 @@ function Header() {
                 </div>
                 <nav className="site-nav-menu">
                     {
-                        MENU_ITEMS.map(item => <MenuItem key={item.id} title={item.title} />)
+                        MENU_ITEMS.map(item => (
+                            <Link href={`${item.route}`}>
+                                <a><MenuItem key={item.id} title={item.title} /></a>
+                            </Link>
+                        ))
                     }
                 </nav>
 
