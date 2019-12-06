@@ -11,7 +11,7 @@ function about() {
     return (
         <>
             <Header />
-            <Slider img='pageTopImg1' />
+            <Slider img='pageTopImg1' title='About us' btnTitle='Back To Home Page' />
             <AboutSection />
             <Milestone />
             <OurTeam />

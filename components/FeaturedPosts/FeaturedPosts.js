@@ -31,7 +31,7 @@ function FeaturedPosts() {
                 {
                     FEATURED.map(item => (
                         <div key={item.id}>
-                            <Card title={item.title} text={item.text} img={item.img} />
+                            <Card title={item.title} text={item.text} img={item.img} btnTitle='Read More' />
                         </div>
                     ))
                 }
