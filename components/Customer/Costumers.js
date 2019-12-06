@@ -36,13 +36,15 @@ function Costumers() {
                         <h2>A group of productive enterprises that produce or supply Goods, Services, or Sources of Income</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
                     </div>
-                    <div id="client-carousel" className="client-slider owl-carousel d-flex">
+                    <div id="client-carousel" className="client-slider d-flex">
+
                         {
                             COSTUMERS.map(item => (
                                 <Costumer key={item.id} img={item.img} />
                             )
                             )
                         }
+
                     </div>
                 </div>
             </section>

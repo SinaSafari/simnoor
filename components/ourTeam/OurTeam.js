@@ -33,17 +33,19 @@ function OurTeam() {
                 </div>
 
                 <div className='d-flex justify-content-center' >
-                    {
-                        TEAM_MEMBERS.map(item => {
-                            return (
-                                <div key={item.id} className='mx-5'>
-                                    <div className=' text-center'>
-                                        <Card img={item.img} title={item.title} text={item.text} btnTitle='Open CV' />
+                    <div className='row'>
+                        {
+                            TEAM_MEMBERS.map(item => {
+                                return (
+                                    <div key={item.id} className='mx-5'>
+                                        <div className=' text-center'>
+                                            <Card img={item.img} title={item.title} text={item.text} btnTitle='Open CV' />
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                        })
-                    }
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         </section>
