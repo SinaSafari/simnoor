@@ -12,6 +12,11 @@ const ICONS = {
     windEngine: require('../public/images/png/wind-engine.png'),
     pumpjack: require('../public/images/png/pumpjack.png'),
 
+    plug: require('../public/images/png/plug.png'),
+    worker: require('../public/images/png/worker.png'),
+    traficCone: require('../public/images/png/trafic-cone.png'),
+    light: require('../public/images/png/light.png'),
+
 
     hero1: require('../public/images/HeroSlider/1.jpg'),
     hero2: require('../public/images/HeroSlider/2.jpg'),
@@ -36,8 +41,15 @@ const ICONS = {
     testemonialBg: require('../public/images/Testimonial/testimonial-bg.jpg'),
     testemonialThumb: require('../public/images/Testimonial/testimonial-thumb.jpg'),
 
-    video: require('../public/images/Video/video-box.jpg')
+    video: require('../public/images/Video/video-box.jpg'),
 
+    pageTopImg1: require('../public/images/pageTop/1.jpg'),
+    pageTopImg2: require('../public/images/pageTop/2.jpg'),
+    pageTopImg3: require('../public/images/pageTop/3.jpg'),
+    pageTopImg4: require('../public/images/pageTop/4.jpg'),
+
+    about: require('../public/images/about/about.jpg'),
+    sign: require('../public/images/about/sign.png')
 
 }
 
