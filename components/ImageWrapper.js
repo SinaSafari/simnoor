@@ -49,7 +49,13 @@ const ICONS = {
     pageTopImg4: require('../public/images/pageTop/4.jpg'),
 
     about: require('../public/images/about/about.jpg'),
-    sign: require('../public/images/about/sign.png')
+    sign: require('../public/images/about/sign.png'),
+
+    team1: require('../public/images/team/1.jpg'),
+    team2: require('../public/images/team/2.jpg'),
+    team3: require('../public/images/team/3.jpg'),
+
+
 
 }
 
