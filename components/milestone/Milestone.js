@@ -37,7 +37,7 @@ const MILESTONS = [
 
 function Milestone() {
     return (
-        <section className="milestones-section set-bg" style={{ background: 'linear-gradient(to left, #000099 0%, #660066 100%)' }} >
+        <section className="milestones-section set-bg grad" >
             <div className="container text-white">
                 <div className="row">
                     {
@@ -47,6 +47,12 @@ function Milestone() {
                     }
                 </div>
             </div>
+            <style jsx>{`
+                    .grad {
+                        background: linear-gradient(to left, #000099 0%, #660066 100%);
+                    }
+            `}
+            </style>
         </section>
     )
 }

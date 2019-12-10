@@ -2,8 +2,63 @@ import React from 'react'
 import Link from 'next/link'
 
 import ImageWrapper from '../ImageWrapper'
+import FooterList from './FooterList'
 import { getCurrentYear } from '../../common/util/getCurrentYear'
 
+
+const RESOURCES = [
+    {
+        id: 1,
+        title: 'hield Wires'
+    },
+    {
+        id: 2,
+        title: 'Optical Power Ground Wire'
+    },
+    {
+        id: 3,
+        title: 'All Aluminium Conductor'
+    },
+    {
+        id: 4,
+        title: 'Steel Reinforced'
+    },
+    {
+        id: 5,
+        title: 'Supported-Trapezoidal Wire'
+    },
+    {
+        id: 6,
+        title: 'Trapezoidal Wire'
+    },
+]
+
+const SOLUTIONS = [
+    {
+        id: 1,
+        title: 'AAAC'
+    },
+    {
+        id: 2,
+        title: 'ACSR'
+    },
+    {
+        id: 3,
+        title: 'ACSR/AW'
+    },
+    {
+        id: 4,
+        title: 'ACSS'
+    },
+    {
+        id: 5,
+        title: 'ACSR/TW'
+    },
+    {
+        id: 6,
+        title: 'OPGW'
+    },
+]
 
 function Footer() {
     return (
@@ -27,12 +82,14 @@ function Footer() {
                             <div className="footer-widget">
                                 <h2 className="fw-title">Useful Resources</h2>
                                 <ul>
-                                    <li><a href="">hield Wires</a></li>
-                                    <li><a href="">Optical Power Ground Wire</a></li>
-                                    <li><a href="">All Aluminium Conductor</a></li>
-                                    <li><a href="">Steel Reinforced</a></li>
-                                    <li><a href="">Supported-Trapezoidal Wire</a></li>
-                                    <li><a href="">Trapezoidal Wire</a></li>
+
+                                    {
+                                        RESOURCES.map(item => (
+                                            <li key={item.id}>
+                                                <FooterList title={item.title} />
+                                            </li>
+                                        ))
+                                    }
                                 </ul>
                             </div>
                         </div>
@@ -40,12 +97,14 @@ function Footer() {
                             <div className="footer-widget">
                                 <h2 className="fw-title">Our Solutions</h2>
                                 <ul>
-                                    <li><a href="">AAAC</a></li>
-                                    <li><a href="">ACSR</a></li>
-                                    <li><a href="">ACSR/AW</a></li>
-                                    <li><a href="">ACSS</a></li>
-                                    <li><a href="">ACSR/TW</a></li>
-                                    <li><a href="">OPGW</a></li>
+
+                                    {
+                                        SOLUTIONS.map(item => (
+                                            <li key={item.id}>
+                                                <FooterList title={item.title} />
+                                            </li>
+                                        ))
+                                    }
                                 </ul>
                             </div>
                         </div>

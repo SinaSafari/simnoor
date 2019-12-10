@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Costumer from './Costumer'
+import Costumer from './CostumerItem'
 
 
 const COSTUMERS = [

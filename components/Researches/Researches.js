@@ -42,21 +42,23 @@ const Research = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-4'>
-                        {
-                            RESEARCH.map((item, i) => {
+                        <ul className='nav nav-tabs reserch-tab-menu'>
+                            {
+                                RESEARCH.map((item, i) => {
 
-                                return (
-                                    <ul className='nav nav-tabs reserch-tab-menu'>
-                                        <li className='nav-item' >
-                                            <a key={i} onClick={() => { setActiveIndex(i) }} className={`nav-link ${activeIndex + 1 == item.id ? 'active' : ''}`}>
+                                    return (
+
+                                        <li key={i} className='nav-item' >
+                                            <a onClick={() => { setActiveIndex(i) }} className={`nav-link ${activeIndex + 1 == item.id ? 'active' : ''}`}>
                                                 {item.heading}
                                             </a>
                                         </li>
-                                    </ul>
 
-                                )
-                            })
-                        }
+
+                                    )
+                                })
+                            }
+                        </ul>
                     </div>
                     <div className='col-lg-8'>
                         <div className='tab-content research-tab'>

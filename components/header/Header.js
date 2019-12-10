@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 
 
-
 import ImageWrapper from '../ImageWrapper'
 import MenuItem from './MenuItem'
 
@@ -74,17 +73,20 @@ function Header() {
                     <button className="search-switch">{/*<ImageWrapper iconName='search' /> */}</button>
                 </div>
                 <nav className="site-nav-menu">
-                    {
-                        MENU_ITEMS.map(item => (
-                            <MenuItem key={item.id} >
-                                <Link href={`${item.route}`}>
-                                    <a>
-                                        {item.title}
-                                    </a>
-                                </Link>
-                            </MenuItem>
-                        ))
-                    }
+                    <ul>
+
+                        {
+                            MENU_ITEMS.map(item => (
+                                <MenuItem key={item.id} >
+                                    <Link href={`${item.route}`}>
+                                        <a>
+                                            {item.title}
+                                        </a>
+                                    </Link>
+                                </MenuItem>
+                            ))
+                        }
+                    </ul>
                 </nav>
 
             </div>

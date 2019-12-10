@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Header from '../components/header/Header'
-import Slider from '../components/hero/Slider'
+import Slider from '../components/Slider/Slider'
 import Services from '../components/services/Services'
 import ContactUs from '../components/contact/ContactUs'
 import Footer from '../components/Footer/Footer'

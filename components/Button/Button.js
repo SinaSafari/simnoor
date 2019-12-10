@@ -1,8 +1,8 @@
 import React from 'react'
-function Button({ title, classes }) {
+function Button({ title, classes, styles }) {
     return (
         <div className={classes}>
-            <button>{title}</button>
+            <button style={{ ...styles }}>{title}</button>
             <style jsx global>{`
         button{
             font-size: 16px;

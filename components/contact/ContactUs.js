@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CallUs() {
+function ContactUs() {
     return (
         <div>
             <section className="cta-section">
@@ -19,4 +19,4 @@ function CallUs() {
     )
 }
 
-export default CallUs
+export default ContactUs

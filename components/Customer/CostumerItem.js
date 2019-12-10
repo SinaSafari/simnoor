@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageWrapper from '../ImageWrapper'
 
-function Costumer({ img }) {
+function CostumerItem({ img }) {
     return (
 
         <div className="single-brand ">
@@ -14,4 +14,4 @@ function Costumer({ img }) {
 }
 
 
-export default Costumer
+export default CostumerItem

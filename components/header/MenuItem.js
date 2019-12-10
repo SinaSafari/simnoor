@@ -2,9 +2,8 @@ import React from 'react'
 
 function MenuItem({ children }) {
     return (
-        <ul>
-            <li>{children}</li>
-        </ul>
+        <li>{children}</li>
+
     )
 }
 
