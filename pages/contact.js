@@ -1,5 +1,7 @@
 import React from 'react'
 
+import MainWrapper from '../components/mainWrapper/MainWrapper'
+
 import Header from '../components/header/Header'
 import Footer from '../components/Footer/Footer'
 import ContactUs from '../components/contact/ContactUs'
@@ -10,12 +12,14 @@ import ContactForm from '../components/Form/ContactForm'
 function contact() {
     return (
         <>
-            <Header />
-            <Slider img='pageTopImg4' title='Contact Us' btnTitle='Back To Home Page' />
-            {/* <Map /> */}
-            <ContactForm />
-            <ContactUs />
-            <Footer />
+            <MainWrapper>
+                {/* <Header /> */}
+                <Slider img='pageTopImg4' title='Contact Us' btnTitle='Back To Home Page' />
+                {/* <Map /> */}
+                <ContactForm />
+                <ContactUs />
+                {/* <Footer /> */}
+            </MainWrapper>
         </>
     )
 }

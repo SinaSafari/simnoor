@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import MainWrapper from '../components/mainWrapper/MainWrapper'
 import Header from '../components/header/Header'
 import Services from '../components/services/Services'
 import FeaturedPosts from '../components/FeaturedPosts/FeaturedPosts'
@@ -15,16 +15,18 @@ const Home = () => {
 
   return (
     <>
-      <Header />
-      {/* <Slider img='hero1' title='Sim Noor Co.' btnTitle='Our Services' /> */}
-      <ImageSlider title='Sim Noor Co.' btnTitle='Our Services' />
-      <Services />
-      <FeaturedPosts />
-      <Costumers />
-      <Testimonials />
-      <ContactUs />
-      <Video />
-      <Footer />
+      <MainWrapper>
+        {/* <Header /> */}
+        {/* <Slider img='hero1' title='Sim Noor Co.' btnTitle='Our Services' /> */}
+        <ImageSlider title='Sim Noor Co.' btnTitle='Our Services' />
+        <Services />
+        <FeaturedPosts />
+        <Costumers />
+        <Testimonials />
+        <ContactUs />
+        <Video />
+        {/* <Footer /> */}
+      </MainWrapper>
     </>
   )
 }
