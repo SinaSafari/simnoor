@@ -6,7 +6,7 @@ import { Carousel } from 'react-bootstrap'
 
 function ImageSlider({ title, img, btnTitle }) {
     return (
-        <Carousel style={{ height: '70vh' }} className='d-inline-flex'>
+        <Carousel className='d-inline-flex cCrousel'>
             <Carousel.Item className=' position-static'>
                 {/* <img
                     className="d-block w-100"

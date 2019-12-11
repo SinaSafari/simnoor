@@ -1822,9 +1822,19 @@ Service Section
   min-width: 156px;
 }
 
+.cCrousel {
+  height: 70vh;
+}
+
 /* ----------------
 Responsive
  ---------------------*/
+
+@media only screen and (max-width: 1100px) {
+  .cCrousel {
+    height: auto !important;
+  }
+}
 
 @media (min-width: 1200px) {
   .container {
