@@ -5,9 +5,14 @@ import ContactUs from '../components/contact/ContactUs'
 import Slider from '../components/Slider/Slider'
 import ContactForm from '../components/Form/ContactForm'
 
+import Head from 'next/head'
+
 function contact() {
     return (
         <>
+            <Head>
+                <title>Simnoor Yazdan | Contact us</title>
+            </Head>
             <MainWrapper>
                 {/* <Header /> */}
                 <Slider img='pageTopImg4' title='Contact Us' btnTitle='Back To Home Page' />

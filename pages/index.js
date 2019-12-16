@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 
 import MainWrapper from '../components/mainWrapper/MainWrapper'
 import Services from '../components/services/Services'
@@ -13,9 +14,8 @@ const Home = () => {
 
   return (
     <>
+
       <MainWrapper>
-        {/* <Header /> */}
-        {/* <Slider img='hero1' title='Sim Noor Co.' btnTitle='Our Services' /> */}
         <ImageSlider title='Sim Noor Co.' btnTitle='Our Services' />
         <Services />
         <FeaturedPosts />

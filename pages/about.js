@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 
 import MainWrapper from '../components/mainWrapper/MainWrapper'
 import ContactUs from '../components/contact/ContactUs'
@@ -10,6 +11,9 @@ import OurTeam from '../components/ourTeam/OurTeam'
 function about() {
     return (
         <>
+            <Head>
+                <title>Simnoor Yazdan | About us</title>
+            </Head>
             <MainWrapper>
                 {/* <Header /> */}
                 <Slider img='pageTopImg1' title='About us' btnTitle='Back To Home Page' />
