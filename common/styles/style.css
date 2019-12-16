@@ -18,7 +18,7 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
 }
 
 h1,
@@ -1923,7 +1923,8 @@ Responsive
   .header-right {
     padding-right: 50px;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     float: none;
   }
   .header-info-box {
@@ -2017,6 +2018,7 @@ Responsive
   .header-info-box {
     margin-right: 15px;
     padding: 21px 0 0;
+    z-index: 999;
   }
   .header-info-box .hib-text {
     text-align: left;
@@ -2131,6 +2133,10 @@ Responsive
   .footer-menu li a {
     margin-left: 0;
     padding: 13px 10px;
+  }
+
+  .header-info-box {
+    z-index: 999;
   }
 }
 

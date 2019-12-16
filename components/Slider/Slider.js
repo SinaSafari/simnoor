@@ -11,8 +11,8 @@ function Slider({ img, title, btnTitle }) {
                 {/* style={{ marginTop: '100px' }} */}
                 <div className='card-img-overlay container ' >
                     <h1 className='text-center heading'><span className='headingTitle'>{title}</span></h1>
-                    <div style={{ marginTop: '30px' }}>
-                        <Botton title={btnTitle} classes='d-flex justify-content-center' />
+                    <div style={{ marginTop: '30px' }} className='botton'>
+                        <Botton title={btnTitle} classes='d-flex justify-content-center ' />
                     </div>
                 </div>
             </div>
@@ -26,6 +26,15 @@ function Slider({ img, title, btnTitle }) {
                 .headingTitle {
                     background: #b44501;
                     padding: 0px 10px;
+                }
+                @media only screen and (max-width: 767px){
+                    .heading{
+                        font-size: 23px;
+                        color: white;
+                    }
+                    .botton{
+                        display:none !important;
+                    }
                 }
             `}
             </style>
