@@ -15,13 +15,11 @@ function about() {
                 <title>Simnoor Yazdan | About us</title>
             </Head>
             <MainWrapper>
-                {/* <Header /> */}
                 <Slider img='pageTopImg1' title='About us' btnTitle='Back To Home Page' />
                 <AboutSection />
                 <Milestone />
                 <OurTeam />
                 <ContactUs />
-                {/* <Footer /> */}
             </MainWrapper>
         </>
     )

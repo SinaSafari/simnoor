@@ -27,12 +27,7 @@ class MyApp extends App {
           <meta name="keywords" content="Sim, Cable" />
           <meta name="description" content="Simnoor Yazdan " />
           <meta name="subject" content="Sim, Cable" />
-          {/* <meta name="copyright" content="Simnoor Yazdan" /> */}
-          {/* <meta name="Classification" content="Business" /> */}
-          {/* <meta name="url" content="http://www.simnoorco.com" /> */}
-          {/* <meta name="identifier-URL" content="http://www.simnoorco.com" /> */}
-          {/* <meta name="coverage" content="Worldwide" /> */}
-          {/* <meta name="distribution" content="Global" /> */}
+
           <meta name="language" content="EN" />
 
           {/* OpenGraph tags */}
@@ -57,12 +52,6 @@ class MyApp extends App {
           <meta name="viewport" content="width = device-width" />
 
           <meta name="viewport" content="width = device-width, initial-scale = 1.0, user-scalable = no" />
-          {/* <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" />
-        <link rel="apple-touch-startup-image" href="/startup.png" />
-
-        <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" /> */}
 
 
         </Head>

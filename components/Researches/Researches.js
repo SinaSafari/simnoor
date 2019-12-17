@@ -76,7 +76,7 @@ const Research = () => {
                         </div>
                     </div>
                     <div className="mt-5">
-                        <div className="reserch-text">
+                        <div className="reserch-text container">
                             <h5>Features and Advantages</h5>
                             <p className='mb-5'>Optimum economy is provided since the lighter weight means lower unit length costs, easier handling in installation and less-complex fittings. All-aluminum conductors have an inherent high corrosion resistance due to their homogeneous construction.</p>
                             <h5>Structure</h5>

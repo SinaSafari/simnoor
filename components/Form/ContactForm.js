@@ -5,7 +5,7 @@ import Button from '../Button/Button'
 
 function ContanctForm() {
     return (
-        <section className="contact-section spad">
+        <section className="contact-section mt-5">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4">
@@ -43,10 +43,10 @@ function ContanctForm() {
                                 </div>
                                 <div className="col-lg-4">
                                 </div>
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <input type="text" placeholder="Subject" />
                                     <textarea className="text-msg" placeholder="Message"></textarea>
-                                    <Button className="site-btn" type="submit" title='send message'></Button>
+                                    <Button classes="mt-n3 " type="submit" title='send message'></Button>
                                 </div>
                             </div>
                         </form>

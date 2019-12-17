@@ -3,7 +3,7 @@ import ImageWrapper from '../ImageWrapper'
 
 function AboutSection() {
     return (
-        <section className="about-section spad">
+        <section className="about-section my-5">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

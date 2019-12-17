@@ -1883,8 +1883,9 @@ Responsive
     float: none;
   }
   .header-info-box {
-    margin-right: 15px;
-    padding: 21px 0 0;
+    /* margin-right: 15px;
+    padding: 21px 0 0; */
+    display: none;
   }
   .site-nav-menu {
     display: flex;

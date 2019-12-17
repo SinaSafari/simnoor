@@ -38,11 +38,11 @@ const MILESTONS = [
 function Milestone() {
     return (
         <section className="milestones-section set-bg grad" >
-            <div className="container text-white">
-                <div className="row">
+            <div className="container text-white  ">
+                <div className="row ">
                     {
                         MILESTONS.map(item => (
-                            <MilestoneItem key={item.id} img={item.img} number={item.number} subject={item.subject} paragraph={item.paragraph} />
+                            <MilestoneItem className='item' key={item.id} img={item.img} number={item.number} subject={item.subject} paragraph={item.paragraph} />
                         ))
                     }
                 </div>
@@ -50,6 +50,10 @@ function Milestone() {
             <style jsx>{`
                     .grad {
                         background: linear-gradient(to left, #000099 0%, #660066 100%);
+                    }
+                    @media only screen and (max-width: 570px){
+                        {/* margin-left: 20px;
+                        margin-right: 20px; */}
                     }
             `}
             </style>

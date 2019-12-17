@@ -14,12 +14,10 @@ function contact() {
                 <title>Simnoor Yazdan | Contact us</title>
             </Head>
             <MainWrapper>
-                {/* <Header /> */}
                 <Slider img='pageTopImg4' title='Contact Us' btnTitle='Back To Home Page' />
                 {/* <Map /> */}
                 <ContactForm />
                 <ContactUs />
-                {/* <Footer /> */}
             </MainWrapper>
         </>
     )

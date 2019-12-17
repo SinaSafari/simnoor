@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 import { Nav, Navbar } from 'react-bootstrap'
 import ImageWrapper from '../ImageWrapper'
-import MenuItem from './MenuItem'
 
 
 const COMPANY_DETAILS = {
@@ -94,11 +93,11 @@ function Header() {
 
 
         <Navbar bg="lihgt" expand="md">
-            <Navbar.Brand className='site-logo' href="#home">
+            <Navbar.Brand className='site-logo my-0 py-0' href="#home">
 
                 <ImageWrapper iconName='logo' />
 
-                <div className="header-right">
+                <div className="header-right headerRight" >
                     <div className="header-info-box">
                         <div className="hib-icon">
                             <ImageWrapper iconName='phone' />
@@ -146,6 +145,13 @@ function Header() {
                 </Nav>
 
             </Navbar.Collapse>
+            <style jsx>{`
+                    .headerRight{
+                        top: -25px;
+                        margin-left: 20px;
+                    }
+                `}
+            </style>
         </Navbar>
 
     )

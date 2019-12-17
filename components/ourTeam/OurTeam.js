@@ -33,7 +33,7 @@ function OurTeam() {
                 </div>
 
                 <div className='d-flex justify-content-center' >
-                    <div className='row'>
+                    <div className='row justify-content-center'>
                         {
                             TEAM_MEMBERS.map(item => {
                                 return (

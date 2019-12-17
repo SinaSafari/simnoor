@@ -1,22 +1,18 @@
 import React from 'react'
 import ImageWrapper from '../ImageWrapper'
 
-import Botton from '../Button/Button'
 
-function Slider({ img, title, btnTitle }) {
+function Slider({ img, title }) {
     return (
         <div>
-            <div className='card'>
+            <div className='card imgSlider'>
                 <ImageWrapper iconName={img} className='card-img-top' />
-                {/* style={{ marginTop: '100px' }} */}
                 <div className='card-img-overlay container ' >
                     <h1 className='text-center heading'><span className='headingTitle'>{title}</span></h1>
-                    <div style={{ marginTop: '30px' }} className='botton'>
-                        <Botton title={btnTitle} classes='d-flex justify-content-center ' />
-                    </div>
+
                 </div>
             </div>
-            <style jsx>{`
+            <style jsx global>{`
                 .heading {
                     color: #000;
                     font-weight: 100;
@@ -28,13 +24,23 @@ function Slider({ img, title, btnTitle }) {
                     padding: 0px 10px;
                 }
                 @media only screen and (max-width: 767px){
-                    .heading{
-                        font-size: 23px;
-                        color: white;
+                    
+                    .imgSlider{
+                        height: 30vh;
                     }
-                    .botton{
-                        display:none !important;
+                    .imgSlider .card-img-top {
+                        height: 100% !important;
                     }
+                    .headingTitle {
+                        font-size: 40px;
+                    }
+                }
+                @media only screen and (min-width: 768px)and (max-width:980px ){
+                    .headingTitle {
+                        font-size: 40px;
+                    }
+                }
+
                 }
             `}
             </style>
