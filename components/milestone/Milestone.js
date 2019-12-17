@@ -51,10 +51,6 @@ function Milestone() {
                     .grad {
                         background: linear-gradient(to left, #000099 0%, #660066 100%);
                     }
-                    @media only screen and (max-width: 570px){
-                        {/* margin-left: 20px;
-                        margin-right: 20px; */}
-                    }
             `}
             </style>
         </section>
