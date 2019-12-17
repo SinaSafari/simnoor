@@ -7,7 +7,6 @@ function AboutSection() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        {/* <img src={aboutJPG} alt="" /> */}
                         <ImageWrapper iconName='about' />
                     </div>
                     <div className="col-lg-6">
@@ -18,7 +17,6 @@ function AboutSection() {
 
                             <div className="about-sign">
                                 <div className="sign">
-                                    {/* <img src={sign} alt="" /> */}
                                     <ImageWrapper iconName='sign' />
                                 </div>
                                 <div className="sign-info">

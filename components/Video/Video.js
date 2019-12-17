@@ -19,9 +19,7 @@ function Video() {
                         <div className="col-lg-6">
                             <div className="video-box set-bg">
                                 <ImageWrapper iconName='video' style={{ height: '100%', width: '100%' }} />
-                                {/* <a href="https://www.youtube.com/watch?v=wbnaHgSttVo" className="video-popup">
-                                    <i className="fa fa-play"></i>
-                                </a> */}
+
                             </div>
                         </div>
                     </div>

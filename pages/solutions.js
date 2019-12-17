@@ -16,12 +16,10 @@ function solution() {
                 <title>Simnoor Yazdan | Our Solutions</title>
             </Head>
             <MainWrapper>
-                {/* <Header /> */}
                 <Slider img='pageTopImg3' title='Our Solutions' btnTitle='Back To Home Page' />
                 <Services />
                 <Researches />
                 <ContactUs />
-                {/* <Footer /> */}
             </MainWrapper>
         </>
     )

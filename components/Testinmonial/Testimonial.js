@@ -10,7 +10,6 @@ function Testimonials() {
 
                         <div className="col-lg-6 p-0">
                             <div className="testimonial-bg set-bg" >
-                                {/* <img src={bg} style={{  }} /> */}
                                 <ImageWrapper iconName='testemonialBg' style={{ height: '100%' }} />
                             </div>
                         </div>

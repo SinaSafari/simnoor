@@ -23,7 +23,6 @@ const Home = () => {
         <Testimonials />
         <ContactUs />
         <Video />
-        {/* <Footer /> */}
       </MainWrapper>
     </>
   )
