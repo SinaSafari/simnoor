@@ -1887,9 +1887,9 @@ Responsive
     padding: 21px 0 0;
   }
   .site-nav-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+    -moz-display: flex;
+    -webkit-display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -2023,8 +2023,18 @@ Responsive
   .header-info-box .hib-text {
     text-align: left;
   }
-  .site-nav-menu {
-    display: none;
+  .site-nav-menu ul {
+    margin-top: 1.5rem;
+    display: block !important;
+  }
+
+  .site-nav-menu ul li {
+    display: block !important;
+  }
+
+  .site-nav-menu ul li a {
+    padding: 10px 0 !important;
+    font-size: 20px !important;
   }
   .search-switch {
     display: none;
