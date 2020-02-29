@@ -17,8 +17,8 @@ function ContanctForm() {
                                     <ImageWrapper iconName='phone' />
                                 </div>
                                 <div className="hib-text">
-                                    <h6>+546 990221 123</h6>
-                                    <p>contact@industryalinc.com</p>
+                                    <h6>(+98)21 88661004</h6>
+                                    <p>info@simnoorco.com</p>
                                 </div>
                             </div>
                             <div className="header-info-box">
@@ -26,8 +26,8 @@ function ContanctForm() {
                                     <ImageWrapper iconName='mapMarker' />
                                 </div>
                                 <div className="hib-text">
-                                    <h6>Main Str, no 23</h6>
-                                    <p>NY, New York PK 23589</p>
+                                    <h6>No. 11, 33 Alley, Alvand street</h6>
+                                    <p>Tehran, Iran</p>
                                 </div>
                             </div>
                         </div>

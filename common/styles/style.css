@@ -1736,9 +1736,11 @@ Service Section
 
 .map-info {
   max-width: 293px;
-  padding: 79px 25px 75px;
-  background: #ffc000;
+  padding: 30px 30px 30px;
+  background: #fc7626;
   position: relative;
+  /* border: 1px solid grey; */
+  /* border-radius: 10px; */
 }
 
 .map-info::after {
@@ -1746,7 +1748,7 @@ Service Section
   content: '';
   left: 0;
   bottom: -17px;
-  border-left: 27px solid #ffc000;
+  border-left: 27px solid #fc7626;
   border-top: 0px solid transparent;
   border-bottom: 17px solid transparent;
 }
@@ -1756,7 +1758,7 @@ Service Section
 }
 
 .map-info p {
-  color: #fff;
+  color: #000;
 }
 
 .map {
