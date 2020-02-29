@@ -6,8 +6,8 @@ import ImageWrapper from '../ImageWrapper'
 
 
 const COMPANY_DETAILS = {
-    email: 'simnooryazdan@yahoo.com',
-    phoneNumber: '(+98)21 44074833',
+    email: 'info@simnoorco.com',
+    phoneNumber: '(+98)21 88661004',
     mainAddress: 'No. 11, 33 Alley, Alvand street',
     subAddress: 'Tehran,Iran'
 }
