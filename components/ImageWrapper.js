@@ -2,6 +2,7 @@ const ICONS = {
     phone: require('../public/images/png/phone.png'),
     mapMarker: require('../public/images/png/map-marker.png'),
     logo: require('../public/images/png/logo.png'),
+    simnoorlogo: require('../public/images/simnoorlogo.png'),
     logoLight: require('../public/images/png/logo-light.png'),
     search: require('../public/images/png/search.png'),
 
@@ -20,6 +21,13 @@ const ICONS = {
 
     hero1: require('../public/images/HeroSlider/1.jpg'),
     hero2: require('../public/images/HeroSlider/2.jpg'),
+    slide1: require('../public/images/HeroSlider/slide1.jpg'),
+    slide2: require('../public/images/HeroSlider/slide2.png'),
+    slide3: require('../public/images/HeroSlider/slide3.jpg'),
+    slide4: require('../public/images/HeroSlider/slide4.jpg'),
+    slide5: require('../public/images/HeroSlider/slide5.jpg'),
+
+
 
     featured1: require('../public/images/features/1.jpg'),
     featured2: require('../public/images/features/2.jpg'),

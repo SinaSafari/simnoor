@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from 'next/head'
 
 import MainWrapper from '../components/mainWrapper/MainWrapper'
 import Services from '../components/services/Services'
@@ -18,8 +17,8 @@ const Home = () => {
       <MainWrapper>
         <ImageSlider title='Sim Noor Co.' btnTitle='Our Services' />
         <Services />
-        <FeaturedPosts />
-        <Costumers />
+        {/* <FeaturedPosts /> */}
+        {/* <Costumers /> */}
         <Testimonials />
         <ContactUs />
         <Video />

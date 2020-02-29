@@ -26,7 +26,7 @@ const FEATURED = [
 function FeaturedPosts() {
 
     return (
-        <div style={{ background: 'linear-gradient(to left, #000099 0%, #660066 100%)' }}>
+        <div style={{ background: 'linear-gradient(to left, #fc4a1a 0%, #f7b733 100%)' }}>
             <div className='d-flex flex-wrap justify-content-around container '>
                 {
                     FEATURED.map(item => (

@@ -8,7 +8,7 @@ import ImageWrapper from '../ImageWrapper'
 const COMPANY_DETAILS = {
     email: 'simnooryazdan@yahoo.com',
     phoneNumber: '(+98)21 44074833',
-    mainAddress: 'No 94, East Ferdos, Kashani Ave',
+    mainAddress: 'No. 11, 33 Alley, Alvand street',
     subAddress: 'Tehran,Iran'
 }
 
@@ -26,9 +26,10 @@ function Header() {
 
 
         <Navbar bg="lihgt" expand="md">
-            <Navbar.Brand className='site-logo my-0 py-0' href="#home">
+            <ImageWrapper iconName='simnoorlogo' style={{ width: "75px", height: "75px", marginLeft: '20px' }} />
 
-                <ImageWrapper iconName='logo' />
+            <Navbar.Brand className='site-logo my-0 py-0' >
+
 
                 <div className="header-right headerRight" >
                     <div className="header-info-box">
