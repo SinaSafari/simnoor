@@ -20,7 +20,7 @@ const Home = () => {
         {/* <FeaturedPosts /> */}
         {/* <Costumers /> */}
         <Testimonials />
-        <ContactUs />
+        {/* <ContactUs /> */}
         <Video />
       </MainWrapper>
     </>

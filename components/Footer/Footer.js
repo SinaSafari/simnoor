@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 import ImageWrapper from '../ImageWrapper'
 import FooterList from './FooterList'
-import { getCurrentYear } from '../../common/util/getCurrentYear'
 
 
 const RESOURCES = [
@@ -63,7 +62,7 @@ const SOLUTIONS = [
 function Footer() {
     return (
         <div>
-            <footer className="footer-section spad" style={{ paddingTop: '50px' }}>
+            <footer className="footer-section spad" style={{ paddingTop: '20px' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
@@ -72,17 +71,19 @@ function Footer() {
                                     <ImageWrapper iconName='simnoorlogo' style={{ width: '100px', height: '100px', marginBottom: '20px' }} />
                                 </div>
                                 <p>We embrace the responsibility of leadership. Providing our people with a clear vision and demonstrating the role they play in delivering it is important. </p>
-                                <div className="footer-social">
-                                    <a href=""><ImageWrapper iconName='facebook' className='m-auto' /></a>
-                                    <a href=""><ImageWrapper iconName='instagram' className='m-auto' /></a>
+                                <div className="footer-social d-flex justify-content-center">
+                                    {/* <a href=""><ImageWrapper iconName='facebook' className='m-auto' /></a> */}
+                                    {/* <a href=""><ImageWrapper iconName='instagram' className='m-auto' /></a> */}
                                     <a href=""><ImageWrapper iconName='telegram' className='m-auto' /></a>
                                     <a href=""><ImageWrapper iconName='linkedin' className='m-auto' /></a>
+                                    {/* TODO: ADD EMAIL SVG ICON */}
+                                    <a href=""><ImageWrapper iconName="" className="m-auto" /></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="footer-widget">
-                                <h2 className="fw-title">Useful Resources</h2>
+                                <h2 className="fw-title">Articless</h2>
                                 <ul>
 
                                     {
@@ -126,13 +127,10 @@ function Footer() {
                                         <ImageWrapper iconName='phone' />
                                     </div>
                                     <div className="fib-text">
-                                        <p>(+98)21 44012650<br />simnooryazdan@yahoo.com</p>
+                                        <p>(+98)21 88661904<br />info@simnoorco.com</p>
                                     </div>
                                 </div>
-                                <form className="footer-search">
-                                    <input type="text" placeholder="Search" />
-                                    <button><i className="fa fa-search"></i></button>
-                                </form>
+
                             </div>
                         </div>
 
@@ -143,7 +141,8 @@ function Footer() {
                         <div className="row">
                             <div className="col-lg-4 order-2 order-lg-1 p-0">
                                 <div className="copyright">
-                                    Copyright &copy; {getCurrentYear()} All rights reserved
+                                    {/* Copyright &copy; {getCurrentYear()} All rights reserved */}
+                                    Designed and maintain by <a href="http://pouyeshsystem.com/">Pouyesh System</a>
                                 </div>
                             </div>
                             <div className="col-lg-7 order-1 order-lg-2 p-0">

@@ -1004,7 +1004,7 @@ Service Section
 ---------------------*/
 
 .footer-section {
-  background: #17172d;
+  background: #ccc;
   padding-bottom: 0;
 }
 
@@ -1027,7 +1027,7 @@ Service Section
 .footer-widget .fw-title {
   font-size: 22px;
   font-weight: 300;
-  color: #fff;
+  color: black;
   margin-bottom: 35px;
 }
 
@@ -1039,7 +1039,7 @@ Service Section
 .footer-widget ul li a {
   display: block;
   font-size: 14px;
-  color: #718090;
+  color: black;
   margin-bottom: 15px;
 }
 
@@ -1087,13 +1087,13 @@ Service Section
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: #39334f;
+  background: #718090;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 
 .footer-social a:hover {
-  background: #ffc000;
+  background: #fc7626;
 }
 
 .footer-info-box {
@@ -1115,7 +1115,7 @@ Service Section
 }
 
 .footer-buttom {
-  margin-top: 55px;
+  margin-top: 0;
   background: #03031b;
 }
 
