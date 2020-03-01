@@ -1746,9 +1746,9 @@ Service Section
 .map-info::after {
   position: absolute;
   content: '';
-  left: 0;
+  right: 0;
   bottom: -17px;
-  border-left: 27px solid #fc7626;
+  border-right: 27px solid #fc7626;
   border-top: 0px solid transparent;
   border-bottom: 17px solid transparent;
 }
@@ -1759,6 +1759,8 @@ Service Section
 
 .map-info p {
   color: #000;
+  text-shadow: 1px 1px #fff;
+  font-size: 16px;
 }
 
 .map {
