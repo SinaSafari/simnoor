@@ -56,18 +56,20 @@ const SERVICES = [
 
 
 
-function Services() {
+function Services({ readmore, btnText }) {
     return (
         <div>
             <section className='services-section'>
                 <div style={{ marginTop: '45px' }}>
                     <div className='container'>
+                        <div className='d-flex '></div>
+                        <h1 className="mb-5">All Products</h1>
                         <div className='row'>
 
 
                             {SERVICES.map(item => {
                                 return (
-                                    <div key={item.id} className="col-lg-4 col-md-6 service">
+                                    <div key={item.id} className="col-lg-4 col-md-6 service mb-5">
                                         <div className="service-item">
                                             <div className="si-head service">
                                                 <div className="si-icon">
@@ -76,7 +78,17 @@ function Services() {
                                                 <h5> {item.title} </h5>
                                             </div>
                                             <p>{item.text} </p>
+                                            <div className="mt-2">
+                                                {
+
+
+                                                    (readmore && <a href="" >Read more &raquo;</a>)
+
+
+                                                }
+                                            </div>
                                         </div>
+
                                     </div>
                                 )
                             })
@@ -88,7 +100,7 @@ function Services() {
                 </div>
                 <div className='d-flex justify-content-center' >
                     <div className="text-lg-right mb-5" >
-                        <a href="" className="site-btn " style={{ backgroundColor: '#FC7626', border: '1px solid grey' }}>Our Products</a>
+                        <a href="" className="site-btn " style={{ backgroundColor: '#FC7626', border: '1px solid grey' }}>{btnText}</a>
                     </div>
                 </div>
             </section>

@@ -14,8 +14,8 @@ const COMPANY_DETAILS = {
 
 const MENU = [
     { id: 1, pathTo: '/', routeName: 'Home' },
-    { id: 2, pathTo: '/about', routeName: 'About' },
-    { id: 3, pathTo: '/solutions', routeName: 'Solutions' },
+    { id: 2, pathTo: '/products', routeName: 'Products' },
+    { id: 3, pathTo: '/about', routeName: 'About Us' },
     { id: 4, pathTo: '/contact', routeName: 'Contact' }
 ]
 

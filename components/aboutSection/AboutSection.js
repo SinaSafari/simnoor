@@ -20,8 +20,8 @@ function AboutSection() {
                                     <ImageWrapper iconName='sign' />
                                 </div>
                                 <div className="sign-info">
-                                    <h5>Michael Smith</h5>
-                                    <span>Sim Noor Co. CEO Industrial INC</span>
+                                    <h5>Ali Rezaei Hezave</h5>
+                                    <span style={{ color: '#777' }}>Sim Noor Co. CEO Sim Noor Yazdan</span>
                                 </div>
                             </div>
                         </div>

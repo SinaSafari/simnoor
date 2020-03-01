@@ -49,7 +49,7 @@ function Milestone() {
             </div>
             <style jsx>{`
                     .grad {
-                        background: linear-gradient(to left, #000099 0%, #660066 100%);
+                        background: linear-gradient(to left, #fc4a1a 0%, #f7b733 100%);
                     }
             `}
             </style>

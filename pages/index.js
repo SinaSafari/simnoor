@@ -16,7 +16,7 @@ const Home = () => {
 
       <MainWrapper>
         <ImageSlider title='Sim Noor Co.' btnTitle='Our Services' />
-        <Services />
+        <Services btnText="Our Products" />
         {/* <FeaturedPosts /> */}
         {/* <Costumers /> */}
         <Testimonials />

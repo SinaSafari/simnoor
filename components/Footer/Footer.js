@@ -149,7 +149,7 @@ function Footer() {
                                 <ul className="footer-menu">
                                     <li><Link href='/'><a>Home</a></Link></li>
                                     <li><Link href='/about'><a>About Us</a></Link></li>
-                                    <li><Link href='/solutions'><a>Solutions</a></Link></li>
+                                    <li><Link href='/products'><a>Products</a></Link></li>
                                     <li><Link href='/contact'><a>Contanct</a></Link></li>
 
                                 </ul>

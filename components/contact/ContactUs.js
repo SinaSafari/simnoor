@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function ContactUs() {
     return (
@@ -10,7 +11,9 @@ function ContactUs() {
                             <h2>We produce or supply Goods, Services, or Sources</h2>
                         </div>
                         <div className="col-lg-3 text-lg-right" >
-                            <a href="" className="site-btn sb-dark">contact us</a>
+                            <Link href="/contact">
+                                <a className="site-btn sb-dark">contact us</a>
+                            </Link>
                         </div>
                     </div>
                 </div>

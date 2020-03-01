@@ -7,22 +7,62 @@ import Button from '../Button/Button'
 const RESEARCH = [
     {
         id: 1,
-        heading: 'ACSS/AW',
-        title: 'Aluminum Conductor Aluminum-Clad Steel-Supported Concentric-Lay-Stranded',
-        text: 'Aluminum Conductor, Steel-Supported with aluminum-clad steel wire (ACSS/AW) are used for overhead distribution and transmission lines where a high degree of corrosion resistance is required. ACSS/AW offers strength characteristics similar to ACSS, along with slightly greater ampacity and resistance to corrosion due to aluminum-cladding of the steel core wires. The AW core, which consists of a thick layer of aluminum (approx. 10% of the nominal wire\radius) over steel, gives ACSS/AW conductors the advantages of standard ACSS along with light weight and good conductivity of aluminum with the high tensile strength and ruggedness of steel.'
+        title: "AAC",
+        heading: "",
+        text: ""
     },
     {
         id: 2,
-        heading: 'ACSS/TW',
-        title: 'Aluminum Conductor Steel Supported/Trapezoidal Wire',
-        text: 'ACSS/TW is designed for overhead distribution and transmission lines. They are especially useful in reconductoring applications requiring increased current with existing tensions and clearances; new line applications where structures can be economized due to reduced sag; new line applications requiring high emergency loadings; lines where Aeolian vibration is a problem. It is designed to operate continuously at elevated temperatures up to 200°C without loss of strength, it sags less under emergency electrical loadings than ACSR/TW, excellent self damping properties, and its final sags are not affected by long-term creep of aluminum. ACSS/TW is available in equal area and equal diameter design. The equal area design allows equal ampacity in a smaller diameter conductor when compared with a standard ACSS conductor. The equal diameter design allows more ampacity in an equal diameter conductor when compared with a standard ACSS conductor. ACSS/TW also provides many design opportunities for new line construction: i.e., reduced tower cost, decreased sag, increased self-damping properties, increased operating temperature.'
+        title: "AAAC",
+        heading: "",
+        text: ""
     },
     {
         id: 3,
-        heading: 'OPGW',
-        title: 'Optical Ground Wire',
-        text: 'An overhead ground wire is installed to protect phase conductors from lightning and reduce electromagnetic interference against telecommunication lines during the grounding of power lines. An optical fiber can transmit a large amount of information in high speeds and suffers no electromagnetic interference because of its non-metallic characteristics. This advantageous feature makes it possible to construct long distance telecommunication lines with high reliablity. Generally, OPGW has dual performance functions of conventional ground wire with optical fiber telecommunication capabilities. '
+        title: "ACSR Group",
+        heading: "ACSR / GA",
+        text: "",
+        headingTwo: "ACRS / AW",
+        textTwo: "",
+        headingThree: "ACSR / TW",
+        textThree: "",
     },
+    {
+        id: 4,
+        title: "ACSS Group",
+        heading: "ACSS / GA",
+        text: "",
+        headingTwo: "ACSS / AW",
+        textTwo: "",
+        headingThree: "ACSS / TW",
+        textThree: "",
+    },
+    {
+        id: 5,
+        title: "ACCC",
+        heading: "",
+        text: ""
+    },
+    {
+        id: 6,
+        title: "OPGW",
+        heading: "",
+        text: ""
+    },
+    {
+        id: 7,
+        title: "ACS",
+        heading: "",
+        text: ""
+    },
+    {
+        id: 8,
+        title: "ROD Group",
+        heading: "ROD / ALL 07",
+        text: "",
+        headingTwo: "ACSS / AL",
+        textTwo: "",
+    }
 ]
 
 const Research = () => {
@@ -50,7 +90,7 @@ const Research = () => {
 
                                         <li key={i} className='nav-item' >
                                             <a onClick={() => { setActiveIndex(i) }} className={`nav-link ${activeIndex + 1 == item.id ? 'active' : ''}`}>
-                                                {item.heading}
+                                                {item.title}
                                             </a>
                                         </li>
 
@@ -60,20 +100,43 @@ const Research = () => {
                             }
                         </ul>
                     </div>
-                    <div className='col-lg-8'>
-                        <div className='tab-content research-tab'>
+                    <div className='col-lg-4'>
+                        {/* <div className='tab-content research-tab'>
                             {
                                 <div className='tab-pane fade show active'>
                                     <h2 style={{ color: 'white' }}>{
                                         RESEARCH[activeIndex].title
 
                                     }</h2>
+
                                     <p>{
                                         RESEARCH[activeIndex].text
                                     }</p>
+
                                 </div>
                             }
-                        </div>
+                        </div> */}
+                        {
+                            <ul className='nav nav-tabs reserch-tab-menu'>
+                                {RESEARCH[activeIndex].headingThree && (
+                                    <>
+                                        <li className="nav-item">
+                                            <a href="" className="nav-link">{RESEARCH[activeIndex].heading}</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a href="" className="nav-link">{RESEARCH[activeIndex].headingTwo}</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a href="" className="nav-link">{RESEARCH[activeIndex].headingThree}</a>
+                                        </li>
+                                    </>
+                                )}
+                            </ul>
+                        }
+
+
+                    </div>
+                    <div className='col-lg-4'>
                     </div>
                     <div className="mt-5">
                         <div className="reserch-text container">

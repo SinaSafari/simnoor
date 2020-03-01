@@ -8,7 +8,7 @@ function Slider({ img, title }) {
             <div className='card imgSlider'>
                 <ImageWrapper iconName={img} className='card-img-top' />
                 <div className='card-img-overlay container ' >
-                    <h1 className='text-center heading'><span className='headingTitle'>{title}</span></h1>
+                    <h1 className='text-center heading mt-5'><span className='headingTitle'>{title}</span></h1>
 
                 </div>
             </div>
@@ -20,7 +20,7 @@ function Slider({ img, title }) {
                     text-shadow: 1px 1px #fff;
                 }
                 .headingTitle {
-                    background: #b44501;
+                    background: #FC7626;
                     padding: 0px 10px;
                 }
                 @media only screen and (max-width: 767px){
