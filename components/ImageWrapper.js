@@ -38,6 +38,7 @@ const ICONS = {
     instagram: require('../public/images/svg/instagram.svg'),
     linkedin: require('../public/images/svg/linkedin.svg'),
     telegram: require('../public/images/svg/telegram.svg'),
+    email: require('../public/images/svg/email.svg'),
 
 
     client1: require('../public/images/clients/1.png'),

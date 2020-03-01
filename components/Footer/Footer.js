@@ -77,7 +77,7 @@ function Footer() {
                                     <a href=""><ImageWrapper iconName='telegram' className='m-auto' /></a>
                                     <a href=""><ImageWrapper iconName='linkedin' className='m-auto' /></a>
                                     {/* TODO: ADD EMAIL SVG ICON */}
-                                    <a href=""><ImageWrapper iconName="" className="m-auto" /></a>
+                                    <a href=""><ImageWrapper iconName="email" className="m-auto" /></a>
                                 </div>
                             </div>
                         </div>
