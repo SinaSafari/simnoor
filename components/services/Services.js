@@ -1,7 +1,6 @@
 import React from 'react'
 
 import ImageWrapper from '../ImageWrapper'
-import Button from '../Button/Button'
 
 const SERVICES = [
     {
