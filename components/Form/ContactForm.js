@@ -5,34 +5,11 @@ import Button from '../Button/Button'
 
 function ContanctForm() {
     return (
-        <section className="contact-section mt-5">
+        <section className="contact-section" style={{ marginTop: '50px' }}>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
-                        <div className="contact-text">
-                            <h2>Get in Touch</h2>
-                            <p>Please leave comments and if you want more information about each one of our products and services, contanct us by this form or use our email address: <a href="mailto: simnooryazdan@yahoo.com">Send Email</a></p>
-                            <div className="header-info-box">
-                                <div className="hib-icon">
-                                    <ImageWrapper iconName='phone' />
-                                </div>
-                                <div className="hib-text">
-                                    <h6>(+98)21 88661004</h6>
-                                    <p>info@simnoorco.com</p>
-                                </div>
-                            </div>
-                            <div className="header-info-box">
-                                <div className="hib-icon">
-                                    <ImageWrapper iconName='mapMarker' />
-                                </div>
-                                <div className="hib-text">
-                                    <h6>No. 11, 33 Alley, Alvand street</h6>
-                                    <p>Tehran, Iran</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-8">
+
+                    <div className="col-lg-9">
                         <form className="contact-form">
                             <div className="row">
                                 <div className="col-lg-6">
