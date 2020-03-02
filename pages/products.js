@@ -17,7 +17,7 @@ function solution() {
             </Head>
             <MainWrapper>
                 <Slider img='pageTopImg3' title='Our Solutions' btnTitle='Back To Home Page' />
-                <Services readmore btnText="Download Our Brochure" />
+                <Services readmore btnText="Download Our Brochure" header />
                 {/* <Researches /> */}
                 <ContactUs />
             </MainWrapper>

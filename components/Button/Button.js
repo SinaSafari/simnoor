@@ -8,6 +8,7 @@ function Button({ title, classes, styles, btnclass }) {
                 font-size: 16px;
                 background-color: #b44501;
                 border: 1px solid #000;
+                border-radius: 5px;
                 padding: 8px;
                 color: white;
                 transition: all 0.3s ease-in-out;

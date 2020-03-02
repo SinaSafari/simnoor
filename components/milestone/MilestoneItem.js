@@ -3,8 +3,8 @@ import ImageWrapper from '../ImageWrapper'
 
 function MilestoneItem({ img, number, paragraph, subject }) {
     return (
-        <div className="col-lg-3 col-sm-6 col-xs-1 d-flex justify-content-center">
-            <div className="milestone">
+        <div className="col-lg-3 col-sm-6 col-xs-1 d-flex justify-content-center" >
+            <div className="milestone" >
                 <div className="milestone-icon">
                     <ImageWrapper iconName={img} />
                 </div>

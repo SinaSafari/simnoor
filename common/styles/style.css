@@ -755,7 +755,7 @@ Service Section
 }
 
 .service-item {
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
   padding-right: 20px;
 }
 
@@ -877,7 +877,7 @@ Service Section
 
 .testimonial-box {
   padding: 100px 15px 70px;
-  background: #17172d;
+  background: transparent;
 }
 
 .testimonial-box .testi-box-warp {
@@ -886,7 +886,7 @@ Service Section
 }
 
 .testimonial-box h2 {
-  color: #fff;
+  color: #000;
   font-weight: 300;
   margin-bottom: 40px;
 }

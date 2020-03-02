@@ -9,11 +9,11 @@ function Testimonials() {
                     <div className="row">
 
                         <div className="col-lg-6 p-0">
-                            <div className="testimonial-bg set-bg" >
-                                <ImageWrapper iconName='testemonialBg' style={{ height: '100%' }} />
+                            <div className="testimonial-bg " >
+                                <ImageWrapper iconName='testemonialBg' style={{ height: '100%', width: '100%' }} />
                             </div>
                         </div>
-                        <div className="col col-lg-6 p-0">
+                        <div className="col-lg-6 p-0">
                             <div className="testimonial-box" >
                                 <div className="testi-box-warp">
                                     <h2>Client’s Testimonials</h2>
@@ -22,8 +22,8 @@ function Testimonials() {
                                             <p>We embrace the responsibility of leadership. Providing our people with a clear vision and demonstrating the role they play in delivering it is important. It’s why our Leadership teams take the time to listen, to share their learnings and experiences, helping people across our business grow and develop.</p>
                                             <ImageWrapper iconName='testemonialThumb' className='testi-thumb' />
                                             <div className="testi-info">
-                                                <h5>Michael Smith</h5>
-                                                <span>CEO Industrial INC</span>
+                                                <h5>Amir Rezaei Hezave</h5>
+                                                <span>CEO Sim Noor Yazdan</span>
                                             </div>
                                         </div>
                                     </div>

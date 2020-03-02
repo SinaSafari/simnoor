@@ -37,7 +37,7 @@ const SERVICES = [
     {
         id: 6,
         img: 'cogwheel',
-        title: "GACW",
+        title: "OPGW",
         text: 'GACW'
     },
     {
@@ -56,21 +56,22 @@ const SERVICES = [
 
 
 
-function Services({ readmore, btnText }) {
+function Services({ readmore, btnText, header }) {
     return (
         <div>
             <section className='services-section'>
-                <div style={{ marginTop: '45px' }}>
+                <div style={{ marginTop: '65px' }}>
                     <div className='container'>
-                        <div className='d-flex '></div>
-                        <h1 className="mb-5">All Products</h1>
-                        <div className='row'>
+                        <div className='d-flex '>
+                            {(header && <h1 className="mb-5" style={{ borderBottom: '8px solid #FC7626' }}>All Products</h1>)}
+                        </div>
+                        <div className='row seviceSection'>
 
 
                             {SERVICES.map(item => {
                                 return (
-                                    <div key={item.id} className="col-lg-4 col-md-6 service mb-5">
-                                        <div className="service-item">
+                                    <div key={item.id} className="service" style={{ border: '1px solid #ccc', padding: '30px', borderRadius: '5px', boxShadow: ' 0px 0px 16px -9px rgba(0,0,0,0.75)', marginBottom: '10px', marginLeft: '20px' }}>
+                                        <div className="service-item" >
                                             <div className="si-head service">
                                                 <div className="si-icon">
                                                     <ImageWrapper className="service" iconName={item.img} />
@@ -78,7 +79,7 @@ function Services({ readmore, btnText }) {
                                                 <h5> {item.title} </h5>
                                             </div>
                                             <p>{item.text} </p>
-                                            <div className="mt-2">
+                                            <div className="mt-3">
                                                 {
 
 
@@ -90,6 +91,7 @@ function Services({ readmore, btnText }) {
                                         </div>
 
                                     </div>
+
                                 )
                             })
 
@@ -100,20 +102,26 @@ function Services({ readmore, btnText }) {
                 </div>
                 <div className='d-flex justify-content-center' >
                     <div className="text-lg-right mb-5" >
-                        <a href="" className="site-btn " style={{ backgroundColor: '#FC7626', border: '1px solid grey' }}>{btnText}</a>
+                        <a href="" className="site-btn " style={{ backgroundColor: '#FC7626', border: '1px solid grey', marginTop: '15px' }}>{btnText}</a>
                     </div>
                 </div>
             </section>
 
             <style jsx>
                 {`
+
+                .seviceSection {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr; 
+                }
+            
                     .service-btn {
                         font-size: 40px;
                     }
                     @media only screen and (max-width: 768px) {
-                        .service {
-                            display: flex;
-                            justify-content: center;
+                        .seviceSection {
+                            display: grid;
+                            grid-template-columns: 1fr ; 
                         }
                     }
                 `}

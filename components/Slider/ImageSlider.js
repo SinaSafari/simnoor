@@ -12,18 +12,21 @@ function ImageSlider({ title, img, btnTitle }) {
                 <Carousel.Item className='position-static'>
                     <ImageWrapper iconName='slide4' />
 
-                    <Carousel.Caption style={{ marginBottom: '100px' }}>
+                    <Carousel.Caption style={{}} >
                         <h1 className='text-center title' style={{ color: '#fff', fontWeight: '100', fontSize: '86px', textShadow: '2px 1px  #000' }}><span className='titleSlider' style={{ background: '#FC7626', padding: '0px 10px' }}>{title}</span></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 {/* item4 */}
                 <Carousel.Item className=' position-static '>
                     <ImageWrapper iconName='slide5' />
-                    <Carousel.Caption style={{ marginBottom: '100px' }} >
-                        <h1 className='text-center title' style={{ color: '#fff', fontWeight: '100', fontSize: '86px', textShadow: '2px 1px  #000' }}><span className='titleSlider' style={{ background: '#FC7626', padding: '0px 10px' }}>{title}</span></h1>
+                    <Carousel.Caption style={{ marginTop: '100px' }} >
+                        <h1 className='text-center title' style={{ color: '#000', fontWeight: '100', fontSize: '86px', textShadow: '2px 1px  #000' }}><span className='titleSlider' style={{ background: '#FC7626', padding: '0px 10px' }}>{title}</span></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            {/* <div style={{ position: 'absolute', top: "-x" }}>
+                <h1 style={{ color: 'black' }}>Sim Nor Yazdan</h1>
+            </div> */}
             <style jsx>{`
                 @media only screen and (max-width: 767px){
                     .titleSlider{
