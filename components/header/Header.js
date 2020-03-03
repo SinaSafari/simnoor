@@ -25,8 +25,8 @@ function Header() {
     return (
 
 
-        <Navbar bg="lihgt" expand="md">
-            <ImageWrapper className="simnoorlogo" iconName='simnoorlogo' style={{ width: '110px', height: '75px', marginLeft: '20px' }} />
+        <Navbar bg="lihgt" expand="md" style={{ borderBottom: '2px solid orange', marginBottom: '5px' }}>
+            <ImageWrapper className="simnoorlogo" iconName='simnoorlogo' style={{ width: '105px', height: '70px', marginLeft: '20px' }} />
 
             <Navbar.Brand className='site-logo my-0 py-0' >
 
@@ -54,7 +54,7 @@ function Header() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
-                <Nav as='nav' className="mr-auto site-nav-menu">
+                <Nav as='nav' className="site-nav-menu">
                     <ul>
                         {
                             MENU.map(item => {
@@ -72,6 +72,19 @@ function Header() {
                         top: -25px;
                         margin-left: 20px;
                     }
+                    .simnoorlogo {
+                        width: 110px;
+                        height: 75px;
+                        margin-left: 20px:
+                    }
+
+                    @media screen and (max-width: 500px){
+                        .simnoorlogo {
+                            width: 90px;
+                            height: 55px;
+                        }
+                    }
+                   
                 `}
             </style>
         </Navbar>

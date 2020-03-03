@@ -26,6 +26,11 @@ const ICONS = {
     slide3: require('../public/images/HeroSlider/slide3.jpg'),
     slide4: require('../public/images/HeroSlider/slide4.jpg'),
     slide5: require('../public/images/HeroSlider/slide5.jpg'),
+    slide6: require('../public/images/HeroSlider/slide6.jpg'),
+    slide8: require('../public/images/HeroSlider/slide8.jpg'),
+    slide9: require('../public/images/HeroSlider/slide9.jpg'),
+    slide10: require('../public/images/HeroSlider/slide10.jpg'),
+    slide11: require('../public/images/HeroSlider/slide11.jpeg'),
 
 
 

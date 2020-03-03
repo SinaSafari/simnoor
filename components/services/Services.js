@@ -108,8 +108,8 @@ function Services({ readmore, btnText, header, homepage }) {
                                                     {
 
 
-                                                        (readmore && <a href="" >Read more &raquo;</a>)
-
+                                                        // (readmore && <a href="" >Read more &raquo;</a>)
+                                                        (readmore && <a href="" >Download Brochure &darr;</a>)
 
                                                     }
                                                 </div>
@@ -137,7 +137,8 @@ function Services({ readmore, btnText, header, homepage }) {
                                                 {
 
 
-                                                    (readmore && <a href="" >Read more &raquo;</a>)
+                                                    // (readmore && <a href="" >Read more &raquo;</a>)
+                                                    (readmore && <a href="" >Download Brochure</a>)
 
 
                                                 }

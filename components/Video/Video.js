@@ -3,7 +3,7 @@ import ImageWrapper from '../ImageWrapper'
 
 function Testimonials() {
     return (
-        <div style={{ marginTop: '50px' }}>
+        <div style={{ marginTop: '50px', marginBottom: "10px" }}>
             <section className="testimonial-section">
                 <div className="container">
                     <div className="row">

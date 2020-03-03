@@ -23,7 +23,9 @@ function ContanctForm() {
                                 <div className="col-lg-12 mb-4">
                                     <input type="text" placeholder="Subject" />
                                     <textarea className="text-msg" placeholder="Message"></textarea>
-                                    <Button classes="mt-n3 " type="submit" title='send message'></Button>
+                                    <div className='d-flex justify-content-center'>
+                                        <Button classes="mt-n3 " type="submit" title='Send Message'></Button>
+                                    </div>
                                 </div>
                             </div>
                         </form>
