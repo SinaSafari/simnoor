@@ -26,7 +26,7 @@ function Header() {
 
 
         <Navbar bg="lihgt" expand="md">
-            <ImageWrapper iconName='simnoorlogo' style={{ width: "75px", height: "75px", marginLeft: '20px' }} />
+            <ImageWrapper className="simnoorlogo" iconName='simnoorlogo' style={{ width: '110px', height: '75px', marginLeft: '20px' }} />
 
             <Navbar.Brand className='site-logo my-0 py-0' >
 

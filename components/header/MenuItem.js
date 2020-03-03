@@ -17,7 +17,7 @@ function MenuItem({ routeName, pathTo }) {
             </li>
             <style jsx>{`
             .selected{
-                color: #b44501;
+                color: #fc7626;
             }
             
             `}</style>

@@ -37,7 +37,7 @@ const SERVICES = [
         id: 6,
         img: 'cogwheel',
         title: "OPGW",
-        text: 'GACW'
+        text: 'OPGW'
     },
     {
         id: 7,
@@ -54,20 +54,75 @@ const SERVICES = [
 ]
 
 
+const LIMITEDSERVICES = [
+    {
+        id: 6,
+        img: 'cogwheel',
+        title: "OPGW",
+        text: 'OPGW'
+    },
+    {
+        id: 4,
+        img: "cogwheel",
+        title: "ACSS",
+        text: "ACSS/GA, ACSS/AW, ACSS/TW"
+    },
+    {
+        id: 8,
+        img: 'cogwheel',
+        title: "Rod",
+        text: 'Rod All 07, Rod AL'
+    },
+]
 
-function Services({ readmore, btnText, header }) {
+
+
+function Services({ readmore, btnText, header, homepage }) {
+    const limiter = (items) => {
+        return items.filter(item => item.title == 'OPGW' || item.title == 'ACSS' || item.title == 'AAAC')
+    }
     return (
         <div>
             <section className='services-section'>
                 <div style={{ marginTop: '65px' }}>
                     <div className='container'>
                         <div className='d-flex '>
-                            {(header && <h1 className="mb-5" style={{ borderBottom: '8px solid #FC7626' }}>All Products</h1>)}
+                            {(header && <h1 className="mb-5" style={{ borderBottom: '8px solid #FC7626' }}>Products</h1>)}
                         </div>
                         <div className='row seviceSection'>
 
 
-                            {SERVICES.map(item => {
+                            {(homepage &&
+                                LIMITEDSERVICES.map(item => {
+                                    return (
+                                        <div key={item.id} className="service" style={{ border: '1px solid #ccc', padding: '30px', borderRadius: '5px', boxShadow: ' 0px 0px 16px -9px rgba(0,0,0,0.75)', marginBottom: '10px', marginLeft: '20px' }}>
+                                            <div className="service-item" >
+                                                <div className="si-head service">
+                                                    <div className="si-icon">
+                                                        <ImageWrapper className="service" iconName={item.img} />
+                                                    </div>
+                                                    <h5> {item.title} </h5>
+                                                </div>
+                                                <p>{item.text} </p>
+                                                <div className="mt-3">
+                                                    {
+
+
+                                                        (readmore && <a href="" >Read more &raquo;</a>)
+
+
+                                                    }
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    )
+                                })
+                            )}
+
+
+                            {!homepage && SERVICES.map(item => {
                                 return (
                                     <div key={item.id} className="service" style={{ border: '1px solid #ccc', padding: '30px', borderRadius: '5px', boxShadow: ' 0px 0px 16px -9px rgba(0,0,0,0.75)', marginBottom: '10px', marginLeft: '20px' }}>
                                         <div className="service-item" >
@@ -96,6 +151,10 @@ function Services({ readmore, btnText, header }) {
 
                             }
 
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -120,7 +179,9 @@ function Services({ readmore, btnText, header }) {
                     @media only screen and (max-width: 768px) {
                         .seviceSection {
                             display: grid;
-                            grid-template-columns: 1fr ; 
+                            grid-template-columns: 1fr; 
+                            justify-content: space-evenly;
+                            margin: 10px 30px;
                         }
                     }
                 `}

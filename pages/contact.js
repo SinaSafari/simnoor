@@ -18,7 +18,7 @@ function contact() {
                 <Slider img='pageTopImg4' title='Contact Us' btnTitle='Back To Home Page' />
                 <Map />
                 <ContactForm />
-                <ContactUs />
+                {/* <ContactUs /> */}
             </MainWrapper>
         </>
     )

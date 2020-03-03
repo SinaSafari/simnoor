@@ -1,22 +1,27 @@
 import React from 'react'
 import ImageWrapper from '../ImageWrapper'
 
-
-function Video() {
+function Testimonials() {
     return (
-        <div>
-            <section className="video-section spad" >
+        <div style={{ marginTop: '50px' }}>
+            <section className="testimonial-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="video-text">
-                                <h2>We produce or supply Goods, & Services</h2>
-                                <p>As a Group with a global footprint, we take our responsibility to create an inclusive environment seriously. We have a culture of sharing, collaboration, openness and transparency which means we embrace diversity, and we consistently monitor our progression. Each of our people has a unique skillset, perspective and capability that they bring to the business. We encourage our people make their mark on Prysmian Group by recognising the essential part that they play both in the business and for the world.</p>
+                        <div className="col-lg-6 p-0">
+                            <div className="testimonial-box" >
+                                <div className="testi-box-warp">
+                                    <h2>Tour of Our Company</h2>
+                                    <div className="testimonial-slider owl-carousel">
+                                        <div className="testimonial">
+                                            <p>We embrace the responsibility of leadership. Providing our people with a clear vision and demonstrating the role they play in delivering it is important. It’s why our Leadership teams take the time to listen, to share their learnings and experiences, helping people across our business grow and develop.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="video-box set-bg">
-                                <ImageWrapper iconName='video' style={{ height: '100%', width: '100%' }} />
+                        <div className="col-lg-6 p-0" >
+                            <div className="testimonial-bg " >
+                                <ImageWrapper iconName='video' />
                             </div>
                         </div>
                     </div>
@@ -26,5 +31,4 @@ function Video() {
     )
 }
 
-
-export default Video
+export default Testimonials

@@ -876,7 +876,7 @@ Service Section
 }
 
 .testimonial-box {
-  padding: 100px 15px 70px;
+  padding: 15px;
   background: transparent;
 }
 
@@ -891,7 +891,7 @@ Service Section
   margin-bottom: 40px;
 }
 
-.testimonial-slider .owl-dots {
+/* .testimonial-slider .owl-dots {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -903,11 +903,11 @@ Service Section
   border-radius: 15px;
   margin-right: 12px;
   background: #fff;
-}
+} */
 
-.testimonial-slider .owl-dots .owl-dot.active {
+/* .testimonial-slider .owl-dots .owl-dot.active {
   background: #ffc000;
-}
+ } */
 
 .testimonial {
   padding-bottom: 70px;
@@ -960,12 +960,12 @@ Service Section
 
 .video-text h2 {
   font-weight: 300;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .video-text p {
   line-height: 2;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .video-box {

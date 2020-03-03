@@ -68,9 +68,9 @@ function Footer() {
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-widget about-widget">
                                 <div className="d-flex justify-content-center">
-                                    <ImageWrapper iconName='simnoorlogo' style={{ width: '100px', height: '100px', marginBottom: '20px' }} />
+                                    <ImageWrapper iconName='simnoorlogo' style={{ width: '140px', height: '100px', marginBottom: '20px' }} />
                                 </div>
-                                <p>We embrace the responsibility of leadership. Providing our people with a clear vision and demonstrating the role they play in delivering it is important. </p>
+                                <p style={{ textAlign: 'justify', textJustify: 'auto' }} >We embrace the responsibility ofleadership. Providing our people with a clear vision and demonstrating the role they play in delivering it is important. </p>
                                 <div className="footer-social d-flex justify-content-center">
                                     {/* <a href=""><ImageWrapper iconName='facebook' className='m-auto' /></a> */}
                                     {/* <a href=""><ImageWrapper iconName='instagram' className='m-auto' /></a> */}
