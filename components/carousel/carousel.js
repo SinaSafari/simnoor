@@ -4,8 +4,8 @@ import { Carousel } from 'react-bootstrap'
 
 const CarouselSlider = () => {
     return (
-        <div className="container" style={{ height: '40%', width: '100%' }}>
-            <Carousel>
+        <div className="container-fluid">
+            <Carousel >
                 <Carousel.Item>
                     <ImageWrapper
                         className="d-block w-100"
